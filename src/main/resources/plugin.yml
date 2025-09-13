@@ -1,0 +1,16 @@
+name: AlgorithmNexus
+version: '1.0-SNAPSHOT'
+main: me.turtlecraftman.algorithmNexus.AlgorithmNexus
+api-version: '1.21'
+authors: [TurtleCraftMan]
+description: Forge your path, master your stats, ascend through the Nexus.
+website: comingsoon
+
+commands:
+  ## Main Command - This is used to access all subcommands. Mainly for admins.
+  algorithmnexus:
+    description: "Main command for AlgorithmNexus."
+    usage: "/<algorithmnexus> [group command] [subcommand]"
+    aliases: [an]
+    permission: algorithmnexus.admin
+    permission-message: "You do not have permission to use this command."
